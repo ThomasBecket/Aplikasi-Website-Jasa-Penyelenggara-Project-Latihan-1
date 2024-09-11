@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 700px;
+    width: 350px;
+}
+
+.login {
+    margin: 20px
+}
+  
+.form-group {
+    margin-bottom: 1rem;
+}
+  
+.card {
+    background-color: #c3c5c7;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+  
+.card-header {
+    background-color: #c3c5c7;
+    border-bottom: none;
+}
+  
+.card-body {
+    background-color: #c3c5c7;
+    padding: 1.5rem;
+}
+  
+.login-button {
+    border-color:  black;
+    border-radius: 5px;
+    margin-left: 100px;
+    height: 35px;
+    width: 90px;
+    font-size: large;
+}
+  
+.login-button:hover {
+    background-color: #d8d8d8;
+}
+  
+.compact-card {
+    max-width: 30rem;
+}
+
+.username-form {
+    height: 25px;
+}
+
+.password-form {
+    height: 25px;
+}

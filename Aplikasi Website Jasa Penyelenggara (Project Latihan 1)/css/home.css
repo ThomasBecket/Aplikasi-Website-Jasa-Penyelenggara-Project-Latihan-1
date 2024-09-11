@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 15px;
+}
+
+/* Media query untuk menangani responsivitas pada layar kecil */
+@media (max-width: 768px) {
+    .container {
+        width: 95%; /* Atur ulang lebar saat tampilan layar lebih kecil */
+    }
+}
+
+/* Mengatur lebar kolom "Jenis Produk" */
+th:nth-child(2), td:nth-child(2) {
+    width: 15%; /* Atur lebar sesuai kebutuhan */
+}
